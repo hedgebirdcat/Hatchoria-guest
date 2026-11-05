@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hatchoria - はじめる</title>
+  <link rel="stylesheet" href="login.css">
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="auth.js" defer></script>
+</head>
+<body>
+  <div class="background"></div>
+  <main class="login-container">
+    <div class="logo-area">
+      <img src="../assets/images/egg.png" alt="Egg" class="egg-image">
+      <h1>Hatchoria</h1>
+      <p>英語で育てる、新しい冒険。</p>
+    </div>
+    <button id="guestButton" class="login-btn" type="button">すぐに遊ぶ</button>
+    <p class="guest-note">アカウント登録・ログインは不要です。<br>このブラウザにゲームデータを保存します。</p>
+    <div id="message" role="status" aria-live="polite">準備中…</div>
+  </main>
+  <footer><p>© 2026 Hatchoria</p></footer>
+</body>
+</html>

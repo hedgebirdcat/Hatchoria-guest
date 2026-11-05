@@ -1,1 +1,2 @@
-# Hatchoria-guest
+# Hatchoria
+English Learning RPG
